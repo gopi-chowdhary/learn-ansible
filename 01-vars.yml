@@ -54,5 +54,10 @@
       ansible.builtin.debug:
         msg: "{{url1}}"
 
+- name: demo on roles variables
+  hosts: localhost
+  roles:
+    - demo:
+
 
 
