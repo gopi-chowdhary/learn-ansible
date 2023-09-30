@@ -57,7 +57,7 @@
 - name: demo on roles variables
   hosts: localhost
   roles:
-    - demo:
+    - demo
 
 
 
